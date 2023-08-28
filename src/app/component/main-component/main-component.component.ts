@@ -5,10 +5,6 @@ import { AfterViewInit, Component, ElementRef, OnInit, ViewChild } from '@angula
   templateUrl: './main-component.component.html',
   styleUrls: ['./main-component.component.css']
 })
-export class MainComponentComponent implements AfterViewInit {
-  @ViewChild('input') input!: ElementRef;
+export class MainComponentComponent {
 
-  ngAfterViewInit(): void {
-    console.log(this.input.nativeElement.value);
-  }
 }
