@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.weather-card {
+    width: 50%;
+    background-color: #15151D;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.weather-card__icon-input {
+    display: flex;
+    justify-content: space-between;
+}
+
+.weather-card__icon-input {
+    display: flex;
+}
+
+.weather-card__img-block {
+    padding: 16px;
+    background-color: #1E1E29;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.weather-card__input {
+    font-family: 'Nunito';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    background-color: #1E1E29;
+    border: none;
+    border-radius: 8px;
+    padding: 0 20px;
+    width: 90%;
+}
+
+.today-information {
+    padding: 36px;
+    height: 588px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info__title {
+    color: #FFFFFF;
+    font-family: 'Nunito';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.info__paragraph {
+    color: #FAFAFA;
+    text-align: center;
+    font-family: 'Nunito';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.info__time {
+    color: #FAFAFA;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+}
+
+.temp-clouds__temperature {
+    color: #FFF;
+    font-family: 'Nunito';
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.temp-clouds__clouds {
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.min-max-temp{
+    display: flex;
+    align-items: center;
+}
